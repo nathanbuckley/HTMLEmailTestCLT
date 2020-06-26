@@ -1,0 +1,34 @@
+{
+    "transport": {
+        "service": "Gmail",
+        "user": "",
+        "password": ""
+    },
+    "baseOptions": {
+        "to": "you@gmail.com",
+        "subject": "Base Test ✔"
+    },
+    "yahooOptions": {
+        "to": "you@yahoo.com",
+        "subject": "Yahoo Test ✔"
+    },
+    "gmailOptions": {
+        "to": "",
+        "subject": "Gmail Test ✔"
+    },
+    "outlookOptions": {
+        "to": "you@outlook.com",
+        "subject": "Outlook Test ✔"
+    },
+    "extOptions": {
+        "to": "you@ext.com",
+        "subject": "Outlook Test ✔"
+    },
+    "litmusOpt": {
+          "testEmail": "testemail@litmus.com",
+          "subject": "Litmus Test email"
+    },
+
+    "file": "test",
+    "from": "Test ✔ <transport@gmail.com>"
+}

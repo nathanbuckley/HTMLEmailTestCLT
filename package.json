@@ -1,0 +1,42 @@
+{
+  "name": "etest",
+  "version": "0.2.0",
+  "description": "Command line tool for testing html email creatives on the fly",
+  "main": "/lib/etest.js",
+  "preferGlobal": "true",
+    "bin": {
+      "etest" : "./bin/etest"
+    },
+  "dependencies": {
+    "ascii-art": "^0.0.2-alpha",
+    "commander": "^2.3.0",
+    "nodemailer": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathanbuckley/HTMLEmailTestCLT.git"
+  },
+  "keywords": [
+    "email",
+    "clt",
+    "html",
+    "emailtest",
+    "test",
+    "command line tool"
+  ],
+  "author": "nathanbuckley",
+   "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/JackFranklin/filesearch/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/nathanbuckley/HTMLEmailTestCLT/issues"
+  },
+  "homepage": "https://github.com/nathanbuckley/HTMLEmailTestCLT"
+}
